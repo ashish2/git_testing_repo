@@ -101,7 +101,7 @@ def show_usage():
 
 if __name__ == "__main__":
 	"""Takes in a csv filename from command line & starts the procedure
-	cd into this directory & run python read_csv.py 'test_shares_data.csv'
+	cd into this directory & run `python read_csv.py compute 'test_shares_data.csv'`
 	"""
 	if len(sys.argv) == 2 and str(sys.argv[1]).lower() == 'runtest':
 		# Just For the moment changing argv, may not be an amazing thing to do.
