@@ -35,6 +35,7 @@ class ComputeData(object):
 	def print_results(self, companies):
 		print "Companies:"
 		print companies.__str__()
+		sys.stdout.flush()
 
 	def run_procedure(self, csv_file):
 		companies = OrderedDict()
